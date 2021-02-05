@@ -1,5 +1,5 @@
 let arraysOfGit = 
-{"Definition": "Putting your existing work on GitHub can let you share and collaborate in lots of great ways. in mac",
+{"Definition": "Putting your existing work on GitHub can let you share and collaborate in lots of great ways. in mac<br><br><img src='image/git1.png'><img src='image/git2.png'>",
 "Steps":
 [
 {"step":"Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.<img src='image/repo-create.png'>"},

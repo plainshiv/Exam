@@ -151,6 +151,7 @@ function getContent(tab){
 					 }
 					 if(key == 'Steps'){
 					 		var i =1;
+					 		$("#"+tab+"-"+key).append("<h3>Steps:</h3>");
 					 		for(let [key1, value1] of Object.entries(value)){
 					 			$("#"+tab+"-"+key).append("<p> <b>"+i+"</b>   "+value1.step+"</p>");
 					 			if(value1.code){
