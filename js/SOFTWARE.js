@@ -1,0 +1,4 @@
+let arraysOfSoftware = 
+{"Definition": "OPERATING SYSTEM , Lan driver configured and browser<br><br>You will be needing an operating system for sure, apart from that, if you have actual physical network equipment, their IOS, drivers, browser are required and also if you need to test you network for implementation, you will definitely need a simulation like Cisco's Packet Tracer or GNS3 (recommended).",
+"Source":"<h3>Source</h3><a href='https://specialties.bayt.com/en/specialties/q/86099/what-are-the-software-requirements-for-a-computer-network/'>https://specialties.bayt.com/en/specialties/q/86099/what-are-the-software-requirements-for-a-computer-network/</a>"
+};

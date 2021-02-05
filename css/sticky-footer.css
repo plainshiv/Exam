@@ -1,0 +1,11 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.fotter-fixed{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}

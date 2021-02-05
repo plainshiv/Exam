@@ -1,0 +1,5 @@
+let arraysOfIP = 
+{"IPAddress": "An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.[1][2] An IP address serves two main functions: host or network interface identification and location addressing",
+"Subnetwork": "A subnetwork or subnet is a logical subdivision of an IP network.[1]:1,16 The practice of dividing a network into two or more networks is called subnetting. <br>Computers that belong to a subnet are addressed with an identical most-significant bit-group in their IP addresses. This results in the logical division of an IP address into two fields: the network number or routing prefix and the rest field or host identifier. The rest field is an identifier for a specific host or network interface.",
+"Source":"<h3>Source</h3><a href='https://en.wikipedia.org/wiki/IP_address'>https://en.wikipedia.org/wiki/IP_address</a> & <a href='https://en.wikipedia.org/wiki/Subnetwork'>https://en.wikipedia.org/wiki/Subnetwork</a>"
+};
