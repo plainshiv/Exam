@@ -140,6 +140,26 @@ function getContent(tab){
 				}	
 			}
 	}else if(tab == 'Git'){
-		$('#contentHeadling').html('Git');
+		$('#contentHeadling').html('Adding an existing project to GitHub using the command line');
+		for(let [key, value] of Object.entries(arraysOfGit)){
+				if(!isIterable(value)){
+					throw key + "is not iterable"; 
+				}else{
+					 $('#contentDiv').append("<div id='"+tab+"-"+key+"'></div>");
+					 if(key == 'Definition' || key == 'Source'){
+					 	$("#"+tab+"-"+key).html(value);
+					 }
+					 if(key == 'Steps'){
+					 		var i =1;
+					 		for(let [key1, value1] of Object.entries(value)){
+					 			$("#"+tab+"-"+key).append("<p> <b>"+i+"</b>   "+value1.step+"</p>");
+					 			if(value1.code){
+					 				$("#"+tab+"-"+key).append("<pre><code>"+value1.code+"</code></pre>");
+					 			}
+					 			i++;
+					 		}
+					 }
+				}	
+			}
 	}
 }
